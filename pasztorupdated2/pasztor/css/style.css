@@ -8,6 +8,9 @@ nav .brandtext {
   color: black;
   font-size: 40px;
 }
+nav .dropstart::before {
+  content: none;
+}
 nav .bluetext {
   color: #4cc1f6;
   font-size: 21px;
@@ -42,7 +45,28 @@ nav .navmenubar1 {
   padding: 16px;
   border-radius: 50%;
 }
+nav .navtogglerx {
+  background-color: #4cc1f6;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 17px;
+  padding-left: 17px;
+  border-radius: 50%;
+}
 
+.hide {
+  display: none;
+}
+.togglenav a {
+  text-decoration: none;
+}
+.togglenav .textwhite {
+  color: white;
+}
+.darkerbluebg {
+  background-color: #4cc1f6;
+}
 /*------*/
 
 /*KerdesekEsValaszokFormPage*/
@@ -218,6 +242,12 @@ nav .navmenubar1 {
 #qa .avatar {
   height: 50px;
 }
+/*------*/
+/*CALENDAR*/
+.cal {
+  height: 25px;
+}
+/*--------*/
 /*FOOTER*/
 
 #footer {
@@ -256,6 +286,10 @@ nav .navmenubar1 {
   nav .active {
     color: #4cc1f6;
   }
+  nav .dropmenu {
+    margin-top: 500px;
+  }
+
   /*-----*/
   /*KerdesekEsValaszokFormPage*/
   .mx {
@@ -306,9 +340,15 @@ nav .navmenubar1 {
   nav .navmenubar1 {
     display: none;
   }
+  nav .navtogglerx {
+    display: none;
+  }
   nav #navbarNav {
     background-color: #4cc1f6;
     width: 100%;
+  }
+  .hideresp {
+    display: none;
   }
   /*------*/
 
